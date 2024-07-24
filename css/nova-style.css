@@ -237,7 +237,7 @@ nav {
     justify-content: center;
     align-items: start;
     flex-direction: column;
-    height: 320vh;
+    height: 350vh;
 }
 
 .projects-content {
@@ -277,7 +277,6 @@ nav {
 
 .projects-img-content {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 100%;
@@ -292,5 +291,139 @@ nav {
     align-items: start;
     flex-direction: column;
     width: 100%;
-    height: 33%;
+    height: 100%;
+    padding: 60px;
+}
+
+.projects-img-content h3 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 32px 0;
+    max-width: 300px;
+}
+
+.projects .btn-explore {
+    padding: 0;
+    display: contents;
+}
+
+.projects .btn-explore i {
+    margin-left: 0;
+    transform: rotate(-135deg);
+}
+
+.img-project-1 {
+    height: 100%;
+}
+.img-project-2 {
+    height: 100%;
+}
+.img-project-3 {
+    height: 100%;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 250vh;
+}
+
+.testimonials-content {
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testimonials-content h2 {
+    color: #222323;
+    font-size: 48px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 4px;
+    line-height: 54px;
+    margin: 40px 0;
+    max-width: 600px;
+}
+
+.testimonials-content p {
+    text-align: center;
+    margin: 40px 0;
+    max-width: 500px;
+}
+
+.testimonials-clients{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    justify-content: center;
+    max-width: 1200px;
+}
+
+.client {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 
+        8px 8px 16px #bebebe,
+        -8px -8px 16px #ffffff;
+    flex: 1 1 calc(33.333% - 40px);
+    padding: 36px 48px;
+}
+
+.client h3 {
+    color: #222323;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: start;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    line-height: 32px;
+    margin: 40px 0;
+    max-width: 200px;
+}
+
+.client p {
+    color: #777777;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: start;
+    line-height: 24px;
+    margin: 40px 0;
+}
+
+.client .client-info {
+    display: flex;
+    justify-content: start;
+    padding: 0;
+}
+
+.client-info div {
+    padding: 0;
+}
+
+.client-info div p {
+    padding: 0;
+    margin: 0;
+}
+
+.client-info .company {
+    color: #888787;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.client-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+    filter: grayscale(80%);
 }
