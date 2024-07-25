@@ -664,3 +664,105 @@ footer div div {
     letter-spacing: 2px;
 }
 
+
+.service-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.s-page-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 700px;
+}
+
+.s-page-content h1 {
+    font-size: 64px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 36px;
+}
+
+.s-page-content p {
+    margin-bottom: 36px;
+}
+
+.service-page .btn-explore a {
+    color: #161717;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.parallax {
+    background-image: url(../imagenes/hero/hero-pink.jpg);
+    filter: grayscale(60%) sepia(30%);    height: 60vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p-service-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 30px;
+    padding: 60px;
+    width: 100%;
+    height: 80vh;
+}
+
+.title-service {
+    width: 50%;
+    padding: 10px;
+}
+
+.title-service h2 {
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: capitalize;
+    max-width: 200px;
+}
+
+.title-service p {
+    letter-spacing: 2px;
+    text-align: start;
+    border-right: none;
+    padding: 0 20px;
+    max-width: 250px;
+}
+
+.text-service {
+    width: 50%;
+    padding: 10px;
+}
+
+.text-service p {
+    line-height: 22px;
+    text-align: start;
+    margin: 10px;
+}
+
+.text-service ul {
+    padding: 0 20px;
+    margin: 10px 20px;
+}
+
+.text-service li {
+    color: #888787;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin: 6px 0;
+}
+
+
+
