@@ -795,7 +795,7 @@ footer div div {
 .parallax-text {
     background-image: url(../imagenes/hero/hero-pink.jpg);
     filter: grayscale(80%) sepia(30%);    
-    height: 80vh;
+    height: 100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -816,7 +816,7 @@ footer div div {
 }
 
 .overlay h2 {
-    font-size: 48px;
+    font-size: 54px;
     font-weight: 400;
     text-transform: uppercase;
     margin: 10px 0;
@@ -916,7 +916,7 @@ footer div div {
 
 .am-text-img-content {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin: 16px 0;
     width: 100%;
@@ -926,7 +926,6 @@ footer div div {
 .am-img-1-content {
     width: 45%;
     height: 100%;
-    padding: 10px;
     background-image: url(../imagenes/hero/hero-pink.jpg);
     filter: grayscale(80%) sepia(30%);
     background-position: center;
@@ -935,9 +934,8 @@ footer div div {
 }
 
 .am-img-2-content {
-    width: 45%;
+    width: 50%;
     height: 100%;
-    padding: 10px;
     background-image: url(../imagenes/hero/hero-pink.jpg);
     filter: grayscale(80%) sepia(30%);
     background-position: center;
@@ -951,7 +949,7 @@ footer div div {
     align-items: start;
     flex-direction: column;
     padding: 80px;
-    width: 55%;
+    width: 50%;
 }
 
 .am-text-2-content .min-text {
@@ -982,8 +980,8 @@ footer div div {
 }
 
 .am-text-2-content ul {
-    padding: 0 10px;
-    margin: 15px;
+    padding: 0 20px;
+    margin: 20px;
 }
 
 .am-text-2-content li {
@@ -1078,4 +1076,24 @@ footer div div {
     padding: 8px;
     color: #fff;
     font-size: 24px;
+}
+
+.blog-page .p-page-content {
+    max-width: 900px;
+}
+
+.blog-page .p-page-content h1 {
+    max-width: 804px;
+}
+
+.blog-page .p-page-content p {
+    max-width: 700px;
+}
+
+.blog-parallax .overlay {
+    max-width: 900px;
+}
+
+.blog-parallax .overlay h2 {
+    margin-bottom: 40px;
 }
