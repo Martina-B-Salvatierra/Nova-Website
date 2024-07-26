@@ -792,9 +792,28 @@ footer div div {
     margin: 10px 0;
 }
 
+.first-project {
+    background-image: url(../imagenes/hero/proyects/project1-hero.jpg);
+}
+
+.second-project {
+    background-image: url(../imagenes/hero/proyects/project2-hero.jpg);
+}
+
+.third-project {
+    background-image: url(../imagenes/hero/proyects/33.jpg);
+}
+
+.fourth-project {
+    background-image: url(../imagenes/hero/proyects/project4-hero2.jpg);
+}
+
+.fifth-project {
+    background-image: url(../imagenes/hero/proyects/project5-hero.jpg);
+}
+
 .parallax-text {
-    background-image: url(../imagenes/hero/hero-pink.jpg);
-    filter: grayscale(80%) sepia(30%);    
+    filter: grayscale(80%) sepia(10%);    
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
