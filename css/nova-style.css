@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'chillax';
 }
@@ -73,16 +77,11 @@ nav {
 }
 
 .hero {
-    background-image: url(../imagenes/hero/hero-pink.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    filter: grayscale(60%) sepia(30%);
     padding: 20px;
     display: flex;
     justify-content: start;
     align-items: center;
-    height: 120vh;
+    height: 100vh;
     position: relative;
 }
 
@@ -119,8 +118,8 @@ nav {
 
 .hero .btn-explore {
     position: absolute;
-    right: 60px;
-    bottom: 60px;
+    right: 100px;
+    bottom: 100px;
 }
 
 .btn-explore i {
@@ -214,12 +213,23 @@ nav {
 }
 
 .services-img-content div {
-    background-color: #acacac;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 33%;
     height: 100%;
+}
+
+.img-service-1 {
+    background-image: url(../imagenes/martin-sanchez-sp28h4ugLts-unsplash.jpg);
+}
+
+.img-service-2 {
+    background-image: url(../imagenes/martin-sanchez-sp28h4ugLts-unsplash.jpg);
+}
+
+.img-service-3 {
+    background-image: url(../imagenes/martin-sanchez-sp28h4ugLts-unsplash.jpg);
 }
 
 .services-img-content p {
@@ -246,6 +256,18 @@ nav {
     justify-content: center;
     align-items: start;
     flex-direction: column;
+}
+
+.img-project-1 {
+    background-image: url(../imagenes/s-o-c-i-a-l-c-u-t-eXmrW9I1Fnw-unsplash.jpg);
+}
+
+.img-project-2 {
+    background-image: url(../imagenes/s-o-c-i-a-l-c-u-t-eXmrW9I1Fnw-unsplash.jpg);
+}
+
+.img-project-3 {
+    background-image: url(../imagenes/s-o-c-i-a-l-c-u-t-eXmrW9I1Fnw-unsplash.jpg);
 }
 
 .projects-content .min-text {
@@ -285,7 +307,6 @@ nav {
 }
 
 .projects-img-content div {
-    background-color: #acacac;
     display: flex;
     justify-content: end;
     align-items: start;
@@ -467,13 +488,24 @@ nav {
 }
 
 .blogs-img-content div {
-    background-color: #acacac;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 33%;
     height: 100%;
+}
+
+.img-blog-1 {
+    background-image: url(../imagenes/soundtrap-1GtagKjrqtw-unsplash.jpg);
+}
+
+.img-blog-2 {
+    background-image: url(../imagenes/soundtrap-1GtagKjrqtw-unsplash.jpg);
+}
+
+.img-blog-3 {
+    background-image: url(../imagenes/soundtrap-1GtagKjrqtw-unsplash.jpg);
 }
 
 .blogs-img-content h3 {
@@ -695,8 +727,22 @@ footer div div {
     letter-spacing: 1px;
 }
 
-.parallax {
+.service-1 {
+    background-image: url(../imagenes/jason-goodman-vbxyFxlgpjM-unsplash.jpg);
+}
+.service-2 {
+    background-image: url(../imagenes/jakob-owens-l82NzBSYbj0-unsplash.jpg);
+}
+
+.service-3 {
+    background-image: url(../imagenes/jonathan-kemper-MMUzS5Qzuus-unsplash.jpg);
+}
+
+.hero-pink {
     background-image: url(../imagenes/hero/hero-pink.jpg);
+} 
+
+.parallax {
     filter: grayscale(60%) sepia(30%);    
     height: 60vh;
     background-attachment: fixed;
@@ -709,14 +755,13 @@ footer div div {
     display: flex;
     justify-content: space-between;
     align-items: start;
-    gap: 30px;
-    padding: 60px;
+    padding: 80px 60px;
+    margin: 10px 0;
     width: 100%;
-    height: 80vh;
 }
 
 .title-service {
-    width: 50%;
+    width: 40%;
     padding: 10px;
 }
 
@@ -736,7 +781,7 @@ footer div div {
 }
 
 .text-service {
-    width: 50%;
+    width: 60%;
     padding: 10px;
 }
 
@@ -1115,6 +1160,26 @@ footer div div {
 
 .blog-parallax .overlay h2 {
     margin-bottom: 40px;
+}
+
+.first-blog {
+    background-image: url(../imagenes/balazs-ketyi-LPWl2pEVGKc-unsplash.jpg);
+}
+
+.second-blog {
+    background-image: url(../imagenes/5.jpg);
+}
+
+.third-blog {
+    background-image: url(../imagenes/balazs-ketyi-LPWl2pEVGKc-unsplash.jpg);
+}
+
+.fourth-blog {
+    background-image: url(../imagenes/andrew-neel-ute2XAFQU2I-unsplash.jpg);
+}
+
+.fifth-blog {
+    background-image: url(../imagenes/firmbee-com-gcsNOsPEXfs-unsplash.jpg);
 }
 
 .contact-page {
