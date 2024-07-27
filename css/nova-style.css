@@ -1193,15 +1193,20 @@ footer div div {
 }
 
 .first-blog {
-    background-image: url(/imagenes/hero/blog/blog1-hero.jpg);
+    background-image: url(/imagenes/blogs/blog1-img1.jpg);
+    filter: grayscale(60%) sepia(30%);    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .second-blog {
-    background-image: url(/imagenes/martin-sanchez-sp28h4ugLts-unsplash.jpg);
+    background-image: url(/imagenes/blogs/blog2-img1.jpg);
 }
 
 .third-blog {
-    background-image: url(/imagenes/hero/blog/blog3-hero.jpg);
+    background-image: url(/imagenes/blogs/blog4-img2.jpg);
 }
 
 .fourth-blog {
