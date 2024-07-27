@@ -125,6 +125,7 @@ nav {
 .btn-explore i {
     background-color: #222323;
     color: #d9d9d9;
+    font-size: 20px;
     border-radius: 50%;
     border: 0.5px solid #d9d9d9;
     padding: 10px;
@@ -196,6 +197,7 @@ nav {
 
 .btn-vm i {
     color: #222323;
+    font-size: 20px;
     border-radius: 50%;
     border: 0.5px solid #d9d9d9;
     padding: 10px;
@@ -221,25 +223,26 @@ nav {
 }
 
 .img-service-1 {
-    background-image: url(../imagenes/martin-sanchez-sp28h4ugLts-unsplash.jpg);
+    background-image: url(../imagenes/acerca-de/about-img1.jpg);
 }
 
 .img-service-2 {
-    background-image: url(../imagenes/martin-sanchez-sp28h4ugLts-unsplash.jpg);
+    background-image: url(../imagenes/acerca-de/about-img1.jpg);
 }
 
 .img-service-3 {
-    background-image: url(../imagenes/martin-sanchez-sp28h4ugLts-unsplash.jpg);
+    background-image: url(../imagenes/acerca-de/about-img1.jpg);
 }
 
 .services-img-content p {
     color: #fff;
     text-align: center;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 24px;
+    font-weight: 500;
     letter-spacing: 2px;
-    line-height: 24px;
-    max-width: 150px;
+    line-height: 32px;
+    max-width: 220px;
 }
 
 .projects {
@@ -259,15 +262,18 @@ nav {
 }
 
 .img-project-1 {
-    background-image: url(../imagenes/s-o-c-i-a-l-c-u-t-eXmrW9I1Fnw-unsplash.jpg);
+    background-image: url(../imagenes/hero/proyects/project1-hero.jpg);
+    height: 100%;
 }
 
 .img-project-2 {
-    background-image: url(../imagenes/s-o-c-i-a-l-c-u-t-eXmrW9I1Fnw-unsplash.jpg);
+    background-image: url(../imagenes/hero/proyects/project2-hero.jpg);
+    height: 100%;
 }
 
 .img-project-3 {
-    background-image: url(../imagenes/s-o-c-i-a-l-c-u-t-eXmrW9I1Fnw-unsplash.jpg);
+    background-image: url(../imagenes/hero/proyects/33.jpg);
+    height: 100%;
 }
 
 .projects-content .min-text {
@@ -333,16 +339,6 @@ nav {
 .projects .btn-explore i {
     margin-left: 0;
     transform: rotate(-135deg);
-}
-
-.img-project-1 {
-    height: 100%;
-}
-.img-project-2 {
-    height: 100%;
-}
-.img-project-3 {
-    height: 100%;
 }
 
 .testimonials {
@@ -497,15 +493,15 @@ nav {
 }
 
 .img-blog-1 {
-    background-image: url(../imagenes/soundtrap-1GtagKjrqtw-unsplash.jpg);
+    background-image: url(../imagenes/hero/blog/blog1-hero.jpg);
 }
 
 .img-blog-2 {
-    background-image: url(../imagenes/soundtrap-1GtagKjrqtw-unsplash.jpg);
+    background-image: url(../imagenes/martin-sanchez-sp28h4ugLts-unsplash.jpg);
 }
 
 .img-blog-3 {
-    background-image: url(../imagenes/soundtrap-1GtagKjrqtw-unsplash.jpg);
+    background-image: url(../imagenes/hero/blog/blog3-hero.jpg);
 }
 
 .blogs-img-content h3 {
@@ -523,6 +519,7 @@ nav {
 .btn-arrow {
     background-color: #222323;
     color: #d9d9d9;
+    font-size: 20px;
     border-radius: 50%;
     border: 0.5px solid #d9d9d9;
     padding: 10px;
@@ -728,14 +725,14 @@ footer div div {
 }
 
 .service-1 {
-    background-image: url(../imagenes/jason-goodman-vbxyFxlgpjM-unsplash.jpg);
+    background-image: url(../imagenes/proyectos/min/pp.jpg);
 }
 .service-2 {
-    background-image: url(../imagenes/jakob-owens-l82NzBSYbj0-unsplash.jpg);
+    background-image: url(../imagenes/proyectos/min/min-dw-uxui.jpg);
 }
 
 .service-3 {
-    background-image: url(../imagenes/jonathan-kemper-MMUzS5Qzuus-unsplash.jpg);
+    background-image: url(../imagenes/proyectos/min/min-md.jpg);
 }
 
 .hero-pink {
@@ -858,7 +855,7 @@ footer div div {
 }
 
 .parallax-text {
-    filter: grayscale(80%) sepia(10%);    
+    filter: grayscale(40%);    
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -877,6 +874,10 @@ footer div div {
     max-width: 650px;
     padding: 60px;
     border-radius: 10px;
+}
+
+.overlay i {
+    transform: rotate(-135deg);
 }
 
 .overlay h2 {
@@ -987,11 +988,23 @@ footer div div {
     height: 86vh;
 }
 
+.ab-img-1 {
+    background-image: url(/imagenes/acerca-de/about-img1.jpg);
+}
+
+.ab-img-2 {
+    background-image: url(/imagenes/acerca-de/about-img3.jpg);
+}
+
+.ab-img-3 {
+    background-image: url(/imagenes/proyectos/min/min-b.jpg);
+}
+
 .am-img-1-content {
     width: 45%;
     height: 100%;
-    background-image: url(../imagenes/hero/hero-pink.jpg);
-    filter: grayscale(80%) sepia(30%);
+    background-image: url(../imagenes/acerca-de/about-img2.jpg);
+    filter: grayscale(80%);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1000,8 +1013,8 @@ footer div div {
 .am-img-2-content {
     width: 50%;
     height: 100%;
-    background-image: url(../imagenes/hero/hero-pink.jpg);
-    filter: grayscale(80%) sepia(30%);
+    background-image: url(../imagenes/acerca-de/about-img4.jpg);
+    filter: grayscale(80%);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1097,7 +1110,6 @@ footer div div {
 }
 
 .team-img-content div {
-    background-color: #acacac; 
     display: flex;
     justify-content: end;
     align-items: center;
@@ -1105,12 +1117,27 @@ footer div div {
     padding: 40px 20px;
     width: 33%;
     height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: saturate(60%);
+}
+
+.team-1 {
+    background-image: url(/imagenes/testimonios/christina-wocintechchat-com-0Zx1bDv5BNY-unsplash.jpg);
+}
+
+.team-2 {
+    background-image: url(/imagenes/testimonios/luis-villasmil-hh3ViD0r0Rc-unsplash.jpg);
+}
+
+.team-3 {
+    background-image: url(/imagenes/testimonios/alex-starnes-PK_t0Lrh7MM-unsplash.jpg);
 }
 
 .team-img-content h3 {
     color: #fff;
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 22px;
+    font-weight: 500;
     letter-spacing: 1px;
     text-align: center;
     text-transform: uppercase;
@@ -1119,6 +1146,9 @@ footer div div {
 }
 
 .team-img-content p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
     margin-bottom: 10px;
     max-width: 200px;
 }
@@ -1163,23 +1193,23 @@ footer div div {
 }
 
 .first-blog {
-    background-image: url(../imagenes/balazs-ketyi-LPWl2pEVGKc-unsplash.jpg);
+    background-image: url(/imagenes/hero/blog/blog1-hero.jpg);
 }
 
 .second-blog {
-    background-image: url(../imagenes/5.jpg);
+    background-image: url(/imagenes/martin-sanchez-sp28h4ugLts-unsplash.jpg);
 }
 
 .third-blog {
-    background-image: url(../imagenes/balazs-ketyi-LPWl2pEVGKc-unsplash.jpg);
+    background-image: url(/imagenes/hero/blog/blog3-hero.jpg);
 }
 
 .fourth-blog {
-    background-image: url(../imagenes/andrew-neel-ute2XAFQU2I-unsplash.jpg);
+    background-image: url(/imagenes/hero/blog/blog4-hero.jpg);
 }
 
 .fifth-blog {
-    background-image: url(../imagenes/firmbee-com-gcsNOsPEXfs-unsplash.jpg);
+    background-image: url(/imagenes/hero/blog/blog5-hero.jpg);
 }
 
 .contact-page {
@@ -1191,7 +1221,7 @@ footer div div {
 }
 
 .contact-title {
-    background-color: #acacac;
+    background-image: url(/imagenes/hero/hero-pink.jpg);
     display: flex;
     justify-content: center;
     align-items: start;
@@ -1352,7 +1382,11 @@ button {
 .contact-img {
     width: 55%;
     height: 100%;
-    background-color: #888787;
+    background-image: url(/imagenes/hero/services3-inicio.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(60%);
 }
 
 
