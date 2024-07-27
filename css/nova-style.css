@@ -1193,28 +1193,23 @@ footer div div {
 }
 
 .first-blog {
-    background-image: url(/imagenes/blogs/blog1-img1.jpg);
-    filter: grayscale(60%) sepia(30%);    
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(../imagenes/blogs/blog1-img1.jpg);
 }
 
 .second-blog {
-    background-image: url(/imagenes/blogs/blog2-img1.jpg);
+    background-image: url(../imagenes/blogs/blog1-img1.jpg);
 }
 
 .third-blog {
-    background-image: url(/imagenes/blogs/blog4-img2.jpg);
+    background-image: url(../imagenes/blogs/blog1-img1.jpg);
 }
 
 .fourth-blog {
-    background-image: url(/imagenes/hero/blog/blog4-hero.jpg);
+    background-image: url(../imagenes/blogs/blog1-img1.jpg);
 }
 
 .fifth-blog {
-    background-image: url(/imagenes/hero/blog/blog5-hero.jpg);
+    background-image: url(../imagenes/blogs/blog1-img1.jpg);
 }
 
 .contact-page {
