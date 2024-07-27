@@ -1551,3 +1551,129 @@ button {
     line-height: 20px;
     margin: 6px 0;
 }
+
+
+.p-blog-title .am-page-content {
+    max-width: 1500px;
+}
+
+.p-blog-title .am-page-content h1 {
+    margin: 20px 0;
+}
+
+.p-blog-title .am-page-content p {
+    max-width: 850px;
+    margin: 20px 0;
+}
+
+.p-blog-title .am-page-content .min-text {
+    margin-bottom: 48px;
+}
+
+.blog1-img1 {
+    background-image: url(../imagenes/austin-distel-21GWwco-JBQ-unsplash.jpg);
+}
+
+.blog-text-list {
+    padding: 2% 24%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bl-text1 {
+    margin: 54px 0;
+}
+
+.blog-text-list .min-text {
+    color: #777777;
+    font-size: 16px;
+    text-align: start;
+    border-right: none;
+    border-left: 2px solid #777777;
+    padding: 0 16px;
+}
+
+.blog-text-list h2 {
+    margin: 0 0 54px 0;
+}
+
+.blog-text-list p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    text-align: start;
+    margin: 10px 0;
+}
+
+.blog-text-list h3 {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 24px 0 4px 0;
+}
+
+.blog-text-list ul {
+    padding: 10px;
+    margin: 10px;
+}
+
+.blog-text-list li {
+    color: #888787;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.blog-text-list .bl-text2 {
+    margin-top: 40px;
+}
+
+.blog-text-list .blog-img img {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.blog-conclusion {
+    background-color: #222323;
+    padding: 60px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.blog-conclusion h4 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 4px 0;
+}
+
+.blog-conclusion p {
+    margin: 24px 0;
+}
+
+.blog-conclusion .client-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px 0;
+}
+
+.blog-conclusion .client-info div {
+    width: 100px;
+}
+
+.blog-conclusion .client-info p {
+    letter-spacing: 1.5px;
+    margin-left: 10px;
+    color: #d9d9d9;
+    width: 600px;
+}
