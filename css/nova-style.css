@@ -1412,16 +1412,84 @@ button {
     max-width: 100px;
 }
 
-.project-img-1 {
-    background-image: url(/imagenes/martin-sanchez-sp28h4ugLts-unsplash.jpg);
+.project1-img-1 {
+    background-image: url(/imagenes/hero/proyects/project1-hero.jpg);
 }
 
-.project-img-2 {
-    background-image: url(/imagenes/martin-sanchez-sp28h4ugLts-unsplash.jpg);
+.project1-img-2 {
+    background-image: url(/imagenes/proyectos/project1/project1-img4.jpg);
 }
 
-.project-img-3 {
-    background-image: url(/imagenes/martin-sanchez-sp28h4ugLts-unsplash.jpg);
+.project1-img-3 {
+    background-image: url(/imagenes/proyectos/project1/project1-img3.jpg);
+}
+
+.project1-img-4 {
+    background-image: url(/imagenes/proyectos/project1/project1-img2.jpg);
+}
+
+.project1-img-5 {
+    background-image: url(/imagenes/proyectos/project1/project1-img5.jpg);
+}
+
+.project2-img-1 {
+    background-image: url(/imagenes/hero/proyects/project2-hero.jpg);
+}
+
+.project2-img-2 {
+    background-image: url(/imagenes/proyectos/project2/project2-img3.jpg);
+}
+
+.project2-img-3 {
+    background-image: url(/imagenes/proyectos/project2/project2-img2.jpg);
+}
+
+.project2-img-4 {
+    background-image: url(/imagenes/proyectos/project2/project2-img4.jpg);
+}
+
+.project2-img-5 {
+    background-image: url(/imagenes/proyectos/project2/project2-img5.jpg);
+}
+
+.project3-img-1 {
+    background-image: url(/imagenes/hero/proyects/33.jpg);
+}
+
+.project3-img-2 {
+    background-image: url(/imagenes/hero/proyects/project3-img1.jpg);
+}
+
+.project3-img-3 {
+    background-image: url(/imagenes/proyectos/project3/project3-img2.jpg);
+}
+
+.project3-img-4 {
+    background-image: url(/imagenes/hero/proyects/project3-img4.jpg);
+}
+
+.project3-img-5 {
+    background-image: url(/imagenes/mario-la-pergola-jM2je7eL7RE-unsplash.jpg);
+}
+
+.project4-img-1 {
+    background-image: url(/imagenes/hero/proyects/project4-hero2.jpg);
+}
+
+.project4-img-2 {
+    background-image: url(/imagenes/hero/proyects/project4-hero2.jpg);
+}
+
+.project4-img-3 {
+    background-image: url(/imagenes/hero/proyects/project4-hero2.jpg);
+}
+
+.project4-img-4 {
+    background-image: url(/imagenes/hero/proyects/project4-hero2.jpg);
+}
+
+.project4-img-5 {
+    background-image: url(/imagenes/hero/proyects/project4-hero2.jpg);
 }
 
 .p-ex-text {
