@@ -1477,19 +1477,39 @@ button {
 }
 
 .project4-img-2 {
-    background-image: url(/imagenes/hero/proyects/project4-hero2.jpg);
+    background-image: url(/imagenes/proyectos/project4/project4-img4.jpg);
 }
 
 .project4-img-3 {
-    background-image: url(/imagenes/hero/proyects/project4-hero2.jpg);
+    background-image: url(/imagenes/proyectos/project4/project4-img2.jpg);
 }
 
 .project4-img-4 {
-    background-image: url(/imagenes/hero/proyects/project4-hero2.jpg);
+    background-image: url(/imagenes/proyectos/project4/project4-img3.jpg);
 }
 
 .project4-img-5 {
-    background-image: url(/imagenes/hero/proyects/project4-hero2.jpg);
+    background-image: url(/imagenes/proyectos/project4/project4-img5.jpg);
+}
+
+.project5-img-1 {
+    background-image: url(/imagenes/hero/proyects/project5-hero.jpg);
+}
+
+.project5-img-2 {
+    background-image: url(/imagenes/proyectos/project5/project5-img1.jpg);
+}
+
+.project5-img-3 {
+    background-image: url(/imagenes/proyectos/project5/project5-img4.jpg);
+}
+
+.project5-img-4 {
+    background-image: url(/imagenes/proyectos/project5/project5-img3.jpg);
+}
+
+.project5-img-5 {
+    background-image: url(/imagenes/proyectos/project5/project5-img5.jpg);
 }
 
 .p-ex-text {
