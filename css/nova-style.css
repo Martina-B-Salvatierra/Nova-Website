@@ -272,7 +272,7 @@ nav {
 }
 
 .img-project-3 {
-    background-image: url(../imagenes/hero/proyects/33.jpg);
+    background-image: url(../imagenes/hero/proyects/project3-hero.jpg);
     height: 100%;
 }
 
@@ -497,7 +497,7 @@ nav {
 }
 
 .img-blog-2 {
-    background-image: url(../imagenes/martin-sanchez-sp28h4ugLts-unsplash.jpg);
+    background-image: url(../imagenes/hero/blog/blog2-hero.jpg);
 }
 
 .img-blog-3 {
@@ -725,14 +725,14 @@ footer div div {
 }
 
 .service-1 {
-    background-image: url(../imagenes/proyectos/min/pp.jpg);
+    background-image: url(../imagenes/servicios/service-1.jpg);
 }
 .service-2 {
-    background-image: url(../imagenes/proyectos/min/min-dw-uxui.jpg);
+    background-image: url(../imagenes/servicios/service-2.jpg);
 }
 
 .service-3 {
-    background-image: url(../imagenes/proyectos/min/min-md.jpg);
+    background-image: url(../imagenes/servicios/service-3.jpg);
 }
 
 .hero-pink {
@@ -843,11 +843,11 @@ footer div div {
 }
 
 .third-project {
-    background-image: url(../imagenes/hero/proyects/33.jpg);
+    background-image: url(../imagenes/hero/proyects/project3-hero.jpg);
 }
 
 .fourth-project {
-    background-image: url(../imagenes/hero/proyects/project4-hero2.jpg);
+    background-image: url(../imagenes/hero/proyects/project4-hero.jpg);
 }
 
 .fifth-project {
@@ -997,7 +997,7 @@ footer div div {
 }
 
 .ab-img-3 {
-    background-image: url(/imagenes/proyectos/min/min-b.jpg);
+    background-image: url(/imagenes/acerca-de/about-img5.jpg);
 }
 
 .am-img-1-content {
@@ -1123,15 +1123,15 @@ footer div div {
 }
 
 .team-1 {
-    background-image: url(/imagenes/testimonios/christina-wocintechchat-com-0Zx1bDv5BNY-unsplash.jpg);
+    background-image: url(/imagenes/acerca-de/team/team-1.jpg);
 }
 
 .team-2 {
-    background-image: url(/imagenes/testimonios/luis-villasmil-hh3ViD0r0Rc-unsplash.jpg);
+    background-image: url(/imagenes/acerca-de/team/team-2.jpg);
 }
 
 .team-3 {
-    background-image: url(/imagenes/testimonios/alex-starnes-PK_t0Lrh7MM-unsplash.jpg);
+    background-image: url(/imagenes/acerca-de/team/team-3.jpg);
 }
 
 .team-img-content h3 {
@@ -1201,7 +1201,7 @@ footer div div {
 }
 
 .second-blog {
-    background-image: url(../imagenes/martin-sanchez-sp28h4ugLts-unsplash.jpg);
+    background-image: url(../imagenes/hero/blog/blog2-hero.jpg);
 }
 
 .third-blog {
@@ -1386,7 +1386,7 @@ button {
 .contact-img {
     width: 55%;
     height: 100%;
-    background-image: url(/imagenes/hero/services3-inicio.jpg);
+    background-image: url(/imagenes/contacto/contact.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1421,7 +1421,7 @@ button {
 }
 
 .project1-img-2 {
-    background-image: url(/imagenes/proyectos/project1/project1-img4.jpg);
+    background-image: url(/imagenes/proyectos/project1/project1-img2.jpg);
 }
 
 .project1-img-3 {
@@ -1429,7 +1429,7 @@ button {
 }
 
 .project1-img-4 {
-    background-image: url(/imagenes/proyectos/project1/project1-img2.jpg);
+    background-image: url(/imagenes/proyectos/project1/project1-img4.jpg);
 }
 
 .project1-img-5 {
@@ -1441,11 +1441,11 @@ button {
 }
 
 .project2-img-2 {
-    background-image: url(/imagenes/proyectos/project2/project2-img3.jpg);
+    background-image: url(/imagenes/proyectos/project2/project2-img2.jpg);
 }
 
 .project2-img-3 {
-    background-image: url(/imagenes/proyectos/project2/project2-img2.jpg);
+    background-image: url(/imagenes/proyectos/project2/project2-img3.jpg);
 }
 
 .project2-img-4 {
@@ -1457,39 +1457,39 @@ button {
 }
 
 .project3-img-1 {
-    background-image: url(/imagenes/hero/proyects/33.jpg);
+    background-image: url(/imagenes/hero/proyects/project3-hero.jpg);
 }
 
 .project3-img-2 {
-    background-image: url(/imagenes/hero/proyects/project3-img1.jpg);
-}
-
-.project3-img-3 {
     background-image: url(/imagenes/proyectos/project3/project3-img2.jpg);
 }
 
+.project3-img-3 {
+    background-image: url(/imagenes/proyectos/project3/project3-img3.jpg);
+}
+
 .project3-img-4 {
-    background-image: url(/imagenes/hero/proyects/project3-img4.jpg);
+    background-image: url(/imagenes/proyectos/project3/project3-img4.jpg);
 }
 
 .project3-img-5 {
-    background-image: url(/imagenes/mario-la-pergola-jM2je7eL7RE-unsplash.jpg);
+    background-image: url(/imagenes/proyectos/project3/project3-img5.jpg);
 }
 
 .project4-img-1 {
-    background-image: url(/imagenes/hero/proyects/project4-hero2.jpg);
+    background-image: url(/imagenes/hero/proyects/project4-hero.jpg);
 }
 
 .project4-img-2 {
-    background-image: url(/imagenes/proyectos/project4/project4-img4.jpg);
-}
-
-.project4-img-3 {
     background-image: url(/imagenes/proyectos/project4/project4-img2.jpg);
 }
 
-.project4-img-4 {
+.project4-img-3 {
     background-image: url(/imagenes/proyectos/project4/project4-img3.jpg);
+}
+
+.project4-img-4 {
+    background-image: url(/imagenes/proyectos/project4/project4-img4.jpg);
 }
 
 .project4-img-5 {
@@ -1501,15 +1501,15 @@ button {
 }
 
 .project5-img-2 {
-    background-image: url(/imagenes/proyectos/project5/project5-img1.jpg);
+    background-image: url(/imagenes/proyectos/project5/project5-img2.jpg);
 }
 
 .project5-img-3 {
-    background-image: url(/imagenes/proyectos/project5/project5-img4.jpg);
+    background-image: url(/imagenes/proyectos/project5/project5-img3.jpg);
 }
 
 .project5-img-4 {
-    background-image: url(/imagenes/proyectos/project5/project5-img3.jpg);
+    background-image: url(/imagenes/proyectos/project5/project5-img4.jpg);
 }
 
 .project5-img-5 {
