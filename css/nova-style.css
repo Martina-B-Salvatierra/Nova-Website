@@ -1075,7 +1075,7 @@ footer div div {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 148vh;
+    height: 180vh;
     margin: 16px 0;
 }
 
@@ -1184,12 +1184,16 @@ footer div div {
     max-width: 700px;
 }
 
-.blog-parallax .overlay {
-    max-width: 900px;
+.blog-page .overlay {
+    max-width: 920px;
 }
 
-.blog-parallax .overlay h2 {
+.blog-page .overlay h2 {
     margin-bottom: 40px;
+}
+
+.blog-page .overlay p {
+    max-width: 600px;
 }
 
 .first-blog {
@@ -1553,12 +1557,18 @@ button {
 }
 
 
+.p-blog-title .about-me-page {
+    height: 100vh;
+}
+
 .p-blog-title .am-page-content {
-    max-width: 1500px;
+    padding: 36px 0;
+    max-width: 1400px;
 }
 
 .p-blog-title .am-page-content h1 {
-    margin: 20px 0;
+    font-size: 64px;
+    margin: 20px 0 40px 0;
 }
 
 .p-blog-title .am-page-content p {
@@ -1596,11 +1606,11 @@ button {
 }
 
 .blog-text-list h2 {
-    margin: 0 0 54px 0;
+    margin: 0 0 48px 0;
 }
 
 .blog-text-list p {
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 1px;
     line-height: 24px;
     text-align: start;
@@ -1608,7 +1618,7 @@ button {
 }
 
 .blog-text-list h3 {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -1622,19 +1632,15 @@ button {
 
 .blog-text-list li {
     color: #888787;
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 1px;
     line-height: 24px;
     margin-bottom: 10px;
 }
 
-.blog-text-list .bl-text2 {
-    margin-top: 40px;
-}
-
 .blog-text-list .blog-img img {
     width: 100%;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 .blog-conclusion {
