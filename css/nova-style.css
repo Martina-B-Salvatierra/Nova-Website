@@ -1581,7 +1581,23 @@ button {
 }
 
 .blog1-img1 {
-    background-image: url(../imagenes/austin-distel-21GWwco-JBQ-unsplash.jpg);
+    background-image: url(../imagenes/hero/blog/blog1-hero.jpg);
+}
+
+.blog2-img1 {
+    background-image: url(../imagenes/hero/blog/blog2-hero.jpg);
+}
+
+.blog3-img1 {
+    background-image: url(../imagenes/hero/blog/blog3-hero.jpg);
+}
+
+.blog4-img1 {
+    background-image: url(../imagenes/hero/blog/blog4-hero.jpg);
+}
+
+.blog5-img1 {
+    background-image: url(../imagenes/hero/blog/blog5-hero.jpg);
 }
 
 .blog-text-list {
