@@ -65,6 +65,10 @@ nav {
     color: #222323;
 }
 
+.nav-links li a:hover {
+    border-bottom: 1.5px solid #222323;
+}
+
 .btn-black a {
     background-color: #222323;
     color: #fff;
@@ -74,6 +78,12 @@ nav {
     font-size: 12px;
     font-weight: 400;
     letter-spacing: 1.5px;
+}
+
+.btn-black a:hover {
+    background-color: #fff;
+    border: 1px solid #222323;
+    color: #222323;
 }
 
 .hero {
@@ -124,20 +134,33 @@ nav {
 
 .btn-explore i {
     background-color: #222323;
-    color: #d9d9d9;
+    color: #777777;
     font-size: 20px;
     border-radius: 50%;
-    border: 0.5px solid #d9d9d9;
+    border: 0.5px solid #777777;
     padding: 10px;
     margin: 0 10px;
+    transform: rotate(-90deg);
+    transition: transform 0.5s ease-in-out;
 }
 
 .btn-explore a {
-    color: #fff;
+    color: #777777;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 300;
+}
+
+.main-page .hero:hover .btn-explore a i {
+    color: #fff;
+    border: 1px solid #eeeeee;
+    transform: rotate(0deg);
+}
+
+.main-page .hero:hover .btn-explore a {
+    color: #fff;
+    font-weight: 400;
 }
 
 .services {
@@ -202,7 +225,13 @@ nav {
     border: 0.5px solid #d9d9d9;
     padding: 10px;
     margin-left: 10px;
+    transform: rotate(90deg);
+    transition: transform 0.5s ease-in-out;
+}
+
+.btn-vm a:hover i {
     transform: rotate(-135deg);
+    background-color: #d9d9d9;
 }
 
 .services-img-content {
@@ -337,8 +366,23 @@ nav {
 }
 
 .projects .btn-explore i {
+    color: #d9d9d9;
+    border: 1px solid #d9d9d9;
     margin-left: 0;
+    transform: rotate(-90deg);
+    transition: transform 0.5s ease-in-out;
+}
+
+.projects .btn-explore a {
+    color: #d9d9d9;
+}
+
+.projects-img-content div:hover .btn-explore a i {
     transform: rotate(-135deg);
+}
+
+.projects-img-content div:hover .btn-explore a {
+    font-weight: 400;
 }
 
 .testimonials {
@@ -509,7 +553,7 @@ nav {
     text-align: center;
     text-transform: uppercase;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: 2px;
     line-height: 24px;
     margin: 40px 0;
@@ -524,6 +568,11 @@ nav {
     border: 0.5px solid #d9d9d9;
     padding: 10px;
     margin: 10px;
+    transform: rotate(0deg);
+    transition: transform 0.5s ease-in-out;
+}
+
+.blogs-img-content:hover div .btn-arrow {
     transform: rotate(-135deg);
 }
 
@@ -655,7 +704,13 @@ footer div div {
     list-style-type: none;
 }
 
+
 .column-list ul i {
+    transform: rotate(90deg);
+    transition: transform 0.5s ease-in-out;
+}
+
+.column-list li:hover i {
     transform: rotate(-135deg);
 }
 
@@ -668,6 +723,8 @@ footer div div {
     text-transform: uppercase;
     padding-bottom: 8px;
     margin: 16px 0;
+    transition: transform 0.5s ease-in-out;
+
 }
 
 .column-list ul a:hover {
@@ -719,9 +776,22 @@ footer div div {
 }
 
 .service-page .btn-explore a {
-    color: #161717;
+    color: #222323;
     font-weight: 400;
     letter-spacing: 1px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.service-page .btn-explore a i {
+    color: #222323;
+    background-color: #fff;
+    border: 0.5px solid #222323;
+}
+
+.service-page:hover .btn-explore a i {
+    transform: rotate(0deg);
+    color: #fff;
+    background-color: #222323;
 }
 
 .service-1 {
@@ -814,6 +884,19 @@ footer div div {
     color: #161717;
     font-weight: 400;
     letter-spacing: 1px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.project-page .btn-explore a i {
+    color: #222323;
+    background-color: #fff;
+    border: 0.5px solid #222323;
+}
+
+.project-page:hover .btn-explore a i {
+    transform: rotate(0deg);
+    color: #fff;
+    background-color: #222323;
 }
 
 .p-page-content {
@@ -868,6 +951,30 @@ footer div div {
     text-align: start;
     color: white;
     margin-bottom: 16px;
+}
+
+.parallax-text .btn-explore a {
+    color: #acacac;
+    font-weight: 400;
+    letter-spacing: 1px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.parallax-text .btn-explore a i {
+    color: #acacac;
+    background-color: #222323;
+    border: 0.5px solid #acacac;
+    transform: rotate(-90deg);
+}
+
+.parallax-text:hover .btn-explore a i {
+    transform: rotate(-135deg);
+    color: #fff;
+    border: 0.5px solid #fff;
+}
+
+.parallax-text:hover .btn-explore a {
+    color: #fff;
 }
 
 .overlay {
@@ -940,6 +1047,19 @@ footer div div {
     color: #161717;
     font-weight: 400;
     letter-spacing: 1px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.about-me-page .btn-explore a i {
+    color: #222323;
+    background-color: #fff;
+    border: 0.5px solid #222323;
+}
+
+.about-me-page:hover .btn-explore a i {
+    transform: rotate(0deg);
+    color: #fff;
+    background-color: #222323;
 }
 
 .am-text-content {
@@ -1280,6 +1400,7 @@ label {
 }
 
 input {
+    color: #acacac;
     width: 100%;
     border: none;
     border-bottom: 1px solid #161717;
@@ -1295,7 +1416,6 @@ input::placeholder {
     font-weight: 400;
     text-align: start;
 }
-
 
 textarea {
     width: 100%;
@@ -1323,6 +1443,12 @@ button {
     padding: 16px;
     margin-top: 64px;
     width: 100%;
+}
+
+button:hover {
+    background-color: #fff;
+    border: 1px solid #222323;
+    color: #222323;
 }
 
 .contact-info {
@@ -1392,7 +1518,6 @@ button {
     background-size: cover;
     filter: grayscale(60%);
 }
-
 
 .project-extend .p-service-content .min-text {
     font-size: 14px;
